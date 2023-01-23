@@ -57,5 +57,5 @@ const capitalA = names.filter(function(name) {
     if (name.charAt(0).toUpperCase() === "A") return name;
 });
 
-console.log("P  rvo slovo A", capitalA);
+console.log("Prvo slovo A", capitalA);
 
