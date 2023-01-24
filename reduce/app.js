@@ -21,16 +21,32 @@
 
 //                  !!!!!!!!!!!!reduce can do map and filter at once!!!!!!!!!
 
-const numbers = [2, 3, 5, 8, 10]
+// const numbers = [2, 3, 5, 8, 10]
 
-const mappedAndFiltered = numbers.reduce(function(prev, curr) {
-    const squared = curr * curr
+// const mappedAndFiltered = numbers.reduce(function(prev, curr) {
+//     const squared = curr * curr
     
-    if (squared % 2 === 0) {
-        prev.push(squared)
-    }
+//     if (squared % 2 === 0) {
+//         prev.push(squared)
+//     }
 
-    return prev;
-}, [])
+//     return prev;
+// }, [])
 
-console.log(mappedAndFiltered);
+// console.log(mappedAndFiltered);
+
+//                       !!!!!!!!!!!!!!!!ARROW FUNCTION NOTATION!!!!!!!!!!!!!!!!!!!!!!!!!
+
+            /* const sum = (a, b) => {
+                return a + b;
+            } */
+
+// const sum = (a, b) => a + b;
+
+// console.log(sum(5, 10));
+
+//
+
+const velikoIme = ime => ime.toUpperCase();
+
+console.log(velikoIme("Umer"));
