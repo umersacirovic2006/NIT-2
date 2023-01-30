@@ -47,6 +47,33 @@
 
 //
 
-const velikoIme = ime => ime.toUpperCase();
+// const velikoIme = ime => ime.toUpperCase();
 
-console.log(velikoIme("Umer"));
+// console.log(velikoIme("Umer"));
+
+// const numbers = [2, 4, 6, 8, 10]
+
+//arrow as callback
+// const squared = numbers.map((num, i) => num * num + i)
+
+//standard
+// numbers.map(function(num, i) {
+//     return num * num + i;
+// })
+
+//reverse
+// const reverseText = text => text.split("").reverse().join("")
+
+// console.log(reverseText("Umer"));
+
+// const numbers = [2, 5, 7, 9, 10, 14, 20]
+
+// const even = numbers.filter(num => num % 2 ===0)
+
+// console.log(even);
+
+// const price = +prompt("Enter your price");
+// const discount = price > 1000 ? 0.2 : 0.1;
+// const discountedPrice = price - price * discount;
+
+// console.log(discountedPrice);
