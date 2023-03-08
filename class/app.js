@@ -67,9 +67,3 @@ bmw.accelarate()
 
 
 console.log(bmw);
-
-// Da li je motor startovan
-// Metoda za ukljucivanje/iskljucivanje motora
-// currentSpeed nemoze da predje maxSpeed
-// brake nesmije da spusti ispod 0
-// da nemoze da se podize/spusta brzina ako je auto ugasen
