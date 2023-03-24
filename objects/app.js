@@ -13,6 +13,15 @@ const person = {
     }
 }
 
+const { name, lastName } = person
+const nestoNjegovo = {
+    name,
+    lastName,
+    occupation: "sad"
+}
+
+alert(name)
+
 person.height = 190;
 
 console.log(person);

@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+body {
+    background-color:#36454F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background-color: #808080;
+    display: flex;
+    width: 40%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardDiv {
+    background-color:#B2BEB5;
+    margin: 1%;
+    padding: 3%;
+}
