@@ -93,15 +93,10 @@ const gameOver = () => {
     answersContainer.innerHTML = ""
 }
 
-
-// Kada se funkcija okine, treba da prebaci na sledece pitanje
-// Ukoliko je dati odgovor tacan, dodati korisniku onoliko poena koliko to pitanje nosi
-// Prebaciti na sledece pitanje, bilo da je odgovor tacan ili netacan
 const submitAnswer = (id, answer) => {
     const question = QUESTIONS[CURRENT_INDEX]
 
     if (question.id === id) {
-        // Prebaci na sledece pitanje
         if (CURRENT_INDEX < 4) {
             CURRENT_INDEX++
             nextQuestion()
